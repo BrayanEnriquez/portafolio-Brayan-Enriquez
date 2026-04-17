@@ -2,6 +2,14 @@
     box-sizing: border-box;
 }
 
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
 h1{
     font-size: 37px;
     color: rgb(8, 34, 97);
@@ -13,7 +21,13 @@ p{
 }
 
 a{
-    color:blue;
+    color:rgb(10, 188, 212);
+}
+
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 30px;
 }
 
 .section{
@@ -22,4 +36,11 @@ a{
     border: 1px solid #ccc;
     border-radius: 8px;
 
+}
+
+footer {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+    text-align: center;
 }
