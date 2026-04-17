@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 h1{
     font-size: 37px;
     color: rgb(8, 34, 97);
@@ -10,4 +14,12 @@ p{
 
 a{
     color:blue;
+}
+
+.section{
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+
 }
