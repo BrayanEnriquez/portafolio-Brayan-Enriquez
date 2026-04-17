@@ -23,6 +23,18 @@ p{
 
 a{
     color:rgb(10, 188, 212);
+    transition: 0.3s ease;
+}
+
+a:hover {
+    color: #2980b9;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 header {
@@ -62,9 +74,5 @@ footer {
     .nav-links {
         flex-direction: column;
         gap: 10px;
-    }
-    img {
-        max-width: 100%;
-        height: auto;
     }
 }
